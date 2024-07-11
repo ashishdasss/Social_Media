@@ -1,0 +1,95 @@
+.login {
+    height: 100vh;
+    // background-color: rgba(89, 71, 228, 0.605);
+    // background: url('https://images.pexels.com/photos/7130472/pexels-photo-7130472.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Replace these colors with the ones you like */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    color: #ffffff; 
+    .vedio{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card{
+        position: absolute;
+        display: flex; 
+        width: 50%;
+        height: 28.5rem;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+      
+        .left{
+            flex: 1;
+            background: url('https://images.pexels.com/photos/7130488/pexels-photo-7130488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'), center;
+            background-size: cover;
+            padding: 35px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            color: rgb(18, 35, 117);
+            
+            // border-top-left-radius: 10px;
+            // border-bottom-left-radius: 10px;
+            
+            h1{
+               margin-top: 1px;
+               align-items: center ;
+               font-size: 70px;
+               line-height: 60px;
+               color: rgb(218, 196, 97);
+               
+            }
+            p{
+              
+            }
+            span{
+                font-size: 14px;
+            }
+            button{
+               width: 50%;
+               padding: 10px; 
+               background-color: rgb(178, 211, 239);
+               border-radius: 40%;
+               border: solid ;
+            }
+
+        }
+        .right{
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            // background: url('https://images.pexels.com/photos/7130466/pexels-photo-7130466.jpeg?auto=compress&cs=tinysrgb&w=600'), center;
+            background-size: cover;
+            h1{
+             color: rgb(78, 100, 12);
+            }
+            form{
+               display: flex;
+               flex-direction: column;
+               gap: 30px;
+            }
+            input{
+                border: none;
+                border-bottom: 1px solid lightgray;
+                padding: 20px 10px;
+            }
+
+            button{
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background-color: rgb(178, 211, 239);
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+        }
+    }
+}
